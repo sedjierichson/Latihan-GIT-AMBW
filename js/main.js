@@ -42,13 +42,13 @@ jQuery(document).ready(function( $ ) {
   ];
   var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
 
-  // WordPress Chart
+  // C++ Chart
   var doughnutData = [{
-    value: 65,
+    value: 80,
     color: "#1abc9c"
   },
   {
-    value: 35,
+    value: 20,
     color: "#ecf0f1"
   }
   ];
@@ -66,25 +66,25 @@ jQuery(document).ready(function( $ ) {
   ];
   var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
 
-  // Photoshop Chart
+  // Kotlin Chart
   var doughnutData = [{
-    value: 70,
+    value: 85,
     color: "#1abc9c"
   },
   {
-    value: 30,
+    value: 15,
     color: "#ecf0f1"
   }
   ];
   var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
 
-  // Illustrator Chart
+  // Video Editing Chart
   var doughnutData = [{
-    value: 50,
+    value: 90,
     color: "#1abc9c"
   },
   {
-    value: 50,
+    value: 10,
     color: "#ecf0f1"
   }
   ];
@@ -100,6 +100,7 @@ jQuery(document).ready(function( $ ) {
   ];
   var myDoughnut = new Chart(document.getElementById("javascript2").getContext("2d")).Doughnut(doughnutData);
 
+  //===================== CHARDO =====================
   // Bootstrap Chart
   var doughnutData = [{
     value: 90,
