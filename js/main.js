@@ -101,7 +101,7 @@ jQuery(document).ready(function( $ ) {
   var myDoughnut = new Chart(document.getElementById("javascript2").getContext("2d")).Doughnut(doughnutData);
 
   //===================== CHARDO =====================
-  // Bootstrap Chart
+  // C++ Chart
   var doughnutData = [{
     value: 90,
     color: "#1abc9c"
@@ -111,19 +111,7 @@ jQuery(document).ready(function( $ ) {
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("bootstrap2").getContext("2d")).Doughnut(doughnutData);
-
-  // WordPress Chart
-  var doughnutData = [{
-    value: 65,
-    color: "#1abc9c"
-  },
-  {
-    value: 35,
-    color: "#ecf0f1"
-  }
-  ];
-  var myDoughnut = new Chart(document.getElementById("wordpress2").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("cplusplus").getContext("2d")).Doughnut(doughnutData);
 
   // HTML Chart
   var doughnutData = [{
@@ -137,19 +125,19 @@ jQuery(document).ready(function( $ ) {
   ];
   var myDoughnut = new Chart(document.getElementById("html2").getContext("2d")).Doughnut(doughnutData);
 
-  // Photoshop Chart
-  var doughnutData = [{
-    value: 70,
+   // Python Chart
+   var doughnutData = [{
+    value: 65,
     color: "#1abc9c"
   },
   {
-    value: 30,
+    value: 35,
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("photoshop2").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("python").getContext("2d")).Doughnut(doughnutData);
 
-  // Illustrator Chart
+  // Kotlin Chart
   var doughnutData = [{
     value: 50,
     color: "#1abc9c"
@@ -159,5 +147,17 @@ jQuery(document).ready(function( $ ) {
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("illustrator2").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("kotlin").getContext("2d")).Doughnut(doughnutData);
+
+  // Swift Chart
+  var doughnutData = [{
+    value: 50,
+    color: "#1abc9c"
+  },
+  {
+    value: 50,
+    color: "#ecf0f1"
+  }
+  ];
+  var myDoughnut = new Chart(document.getElementById("swift").getContext("2d")).Doughnut(doughnutData);
 });
