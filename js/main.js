@@ -160,4 +160,65 @@ jQuery(document).ready(function( $ ) {
   }
   ];
   var myDoughnut = new Chart(document.getElementById("swift").getContext("2d")).Doughnut(doughnutData);
+
+  ////==========================JAMES=====================================
+  // C++ Chart
+  var doughnutData = [{
+    value: 90,
+    color: "#1abc9c"
+  },
+  {
+    value: 10,
+    color: "#ecf0f1"
+  }
+  ];
+  var myDoughnut = new Chart(document.getElementById("cplusplus2").getContext("2d")).Doughnut(doughnutData);
+
+  // HTML Chart
+  var doughnutData = [{
+    value: 90,
+    color: "#1abc9c"
+  },
+  {
+    value: 10,
+    color: "#ecf0f1"
+  }
+  ];
+  var myDoughnut = new Chart(document.getElementById("html3").getContext("2d")).Doughnut(doughnutData);
+
+   // Python Chart
+   var doughnutData = [{
+    value: 55,
+    color: "#1abc9c"
+  },
+  {
+    value: 45,
+    color: "#ecf0f1"
+  }
+  ];
+  var myDoughnut = new Chart(document.getElementById("python2").getContext("2d")).Doughnut(doughnutData);
+
+  // Kotlin Chart
+  var doughnutData = [{
+    value: 50,
+    color: "#1abc9c"
+  },
+  {
+    value: 50,
+    color: "#ecf0f1"
+  }
+  ];
+  var myDoughnut = new Chart(document.getElementById("office").getContext("2d")).Doughnut(doughnutData);
+
+  // Swift Chart
+  var doughnutData = [{
+    value: 60,
+    color: "#1abc9c"
+  },
+  {
+    value: 40,
+    color: "#ecf0f1"
+  }
+  ];
+  var myDoughnut = new Chart(document.getElementById("adobeps").getContext("2d")).Doughnut(doughnutData);
 });
