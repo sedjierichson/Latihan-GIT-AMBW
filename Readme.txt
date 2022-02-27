@@ -1,6 +1,4 @@
-Thanks for downloading this template!
-
-Template Name: Kelvin
-Template URL: https://templatemag.com/kelvin-bootstrap-resume-template/
-Author: TemplateMag.com
-License: https://templatemag.com/license/
+ANGGOTA KELOMPOK
+1. Richard James  - C14190022
+2. Richardo Jason - C14190181
+3. Richson Sedjie - C14190185
